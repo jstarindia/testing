@@ -1,0 +1,8 @@
+2021-02-25T04:54:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\brandstore\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-02-25T05:04:03+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\xampp\htdocs\brandstore\wp-content\themes\brandstore\includes\theme-helper.php on line 15
+
+2021-02-25T06:56:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\brandstore\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-02-25T14:08:28+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\brandstore\wp-content\themes\brandstore\functions.php on line 28
+

@@ -1,0 +1,25 @@
+2021-02-24T12:28:37+00:00 CRITICAL Uncaught Error: Call to undefined function astra_content_bottom() in C:\xampp\htdocs\brandstore\wp-content\themes\brandstore\footer.php:18
+Stack trace:
+#0 C:\xampp\htdocs\brandstore\wp-includes\template.php(730): require_once()
+#1 C:\xampp\htdocs\brandstore\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\brandstore\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\brandstore\wp-content\themes\twentytwenty\singular.php(34): get_footer()
+#4 C:\xampp\htdocs\brandstore\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\brandstore\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\brandstore\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\brandstore\wp-content\themes\brandstore\footer.php on line 18
+
+2021-02-24T12:55:09+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xampp\htdocs\brandstore\wp-content\themes\brandstore\footer.php on line 25
+
+2021-02-24T13:39:49+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_loop_prop() in C:\xampp\htdocs\brandstore\wp-content\themes\brandstore\includes\theme-helper.php:12
+Stack trace:
+#0 C:\xampp\htdocs\brandstore\wp-content\themes\brandstore\functions.php(23): require_once()
+#1 C:\xampp\htdocs\brandstore\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\brandstore\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\brandstore\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\brandstore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\brandstore\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\brandstore\wp-content\themes\brandstore\includes\theme-helper.php on line 12
+
